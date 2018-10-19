@@ -1,0 +1,21 @@
+{
+  "name": "hierarchy-models",
+  "authors": [
+    {
+      "name": "AhmedSaidAsmail",
+      "email": "info.matrixcode@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.6",
+    "illuminate/database": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0|~5.0|~5.7|~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "HierarchyModels\\": "src/"
+    }
+  }
+}
