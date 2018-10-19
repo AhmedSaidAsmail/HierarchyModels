@@ -1,5 +1,13 @@
 {
-  "name": "hierarchy-models",
+  "name": "hierarchy-models/hierarchy",
+  "type": "library",
+  "description": "Analyzing Hierarchy models and resorting them according to parent ID",
+  "keywords": [
+    "hierarchy arrays",
+    "hierarchy models",
+    "sorting hierarchy rows"
+  ],
+  "homepage": "https://github.com/AhmedSaidAsmail/HierarchyModels",
   "authors": [
     {
       "name": "AhmedSaidAsmail",
