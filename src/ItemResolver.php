@@ -84,6 +84,14 @@ class ItemResolver
     }
 
     /**
+     * @return Model
+     */
+    public function getModel()
+    {
+        return $this->model;
+    }
+
+    /**
      * Removing item childs
      *
      * @return void
@@ -93,6 +101,6 @@ class ItemResolver
     {
         $this->childs = null;
     }
-    
+
 
 }
