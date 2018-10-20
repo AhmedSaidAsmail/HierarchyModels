@@ -102,5 +102,14 @@ class ItemResolver
         $this->childs = null;
     }
 
+    /**
+     * @param $property
+     * @return mixed
+     */
+    public function __get($property)
+    {
+        return $this->model->{$property};
+    }
+
 
 }

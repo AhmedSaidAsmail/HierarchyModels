@@ -36,4 +36,21 @@ class ItemCollection
         return $this->collection;
     }
 
+    /**
+     * @return ItemResolver[]
+     */
+    public function get()
+    {
+        return $this->collection;
+    }
+
+    /**
+     * @param $limit
+     * @return ItemCollection
+     */
+    public function limit($limit)
+    {
+        return new static(array_slice($this->collection, 0, $limit));
+    }
+
 }
